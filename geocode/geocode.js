@@ -1,7 +1,7 @@
 const request = require('request');
 
-const key = 'AIzaSyAGFm69f20xcCN5nNN1_C5LLN6rF9NCV-8';
-const forecastKey = '4e56879cf921868539d85c16097c973d';
+//see config.example.js for configuration
+const {key} = require('../config.js');
 
 var geocodeAddress = (address, callback) => {
   var encodedAddress = encodeURIComponent(address);

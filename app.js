@@ -33,8 +33,3 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 
   }
 });
-
-
-
-//KEY FOR USING GOOGLE API'S: add "&key=AIzaSyAGFm69f20xcCN5nNN1_C5LLN6rF9NCV-8" in url query
-//KEY FOR USING DARK SKY WEATHER API: "4e56879cf921868539d85c16097c973d"

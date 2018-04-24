@@ -1,8 +1,8 @@
 const yargs = require('yargs');
 const axios = require('axios');
 
-const key = 'AIzaSyAGFm69f20xcCN5nNN1_C5LLN6rF9NCV-8';
-const keyID = '4e56879cf921868539d85c16097c973d';
+//see config.example.js for configuration
+const {key, keyID} = require('./config.js');
 
 const argv = yargs
   .options({
